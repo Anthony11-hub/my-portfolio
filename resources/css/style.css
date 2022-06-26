@@ -5,11 +5,16 @@
     height: 570px;
     margin-top: -20px;
 }
-image .heading {
+    .heading {
+        color: white;
+        text-align: center;
+        padding-top: 200px;
+     }
+/* image .heading {
     color: white;
     text-align: center;
     padding-top: 200px;
-}
+} */
 
 .image p {
     text-align: center;
@@ -27,7 +32,7 @@ image .heading {
     border-color: #C57ED3;
 }
 
-
+/* NAVBAR */
 .navbar {
     height: 80px;
     background-color: transparent;
@@ -50,7 +55,9 @@ image .heading {
     color: white;
     margin: 10px 5px 5px 5px;
 }
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:active, 
+.navbar-default .navbar-nav > li > a:focus {
     color: #C57ED3;
     border: 1px solid #C57ED3;
 }
@@ -60,14 +67,17 @@ image .heading {
     text-decoration: none;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
     background-color: transparent;
     color: #C57ED3;
 }
 .navbar-default .navbar-toggle {
     border-color: #C57ED3;
 }
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
     background-color: #490D40;
 }
 
