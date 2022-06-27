@@ -5,28 +5,29 @@
     height: 570px;
     margin-top: -20px;
 }
-    .heading {
-        color: white;
-        text-align: center;
-        padding-top: 200px;
-     }
+.heading {
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
 /* image .heading {
     color: white;
     text-align: center;
     padding-top: 200px;
 } */
 
-.image p {
+p {
     text-align: center;
     padding: 20px 60px;
   }
-.image p .btn {
+p .btn {
     background-color: transparent;
     color: white;
     border: 1px solid white;
     padding: 10px;
     font-size: 1.2em;
 }
+
 .image p .btn:hover {
     color: #C57ED3;
     border-color: #C57ED3;
@@ -36,6 +37,7 @@
 .navbar {
     height: 80px;
     background-color: transparent;
+    /* text-decoration: none; */
     border: none;
     color: white;
     z-index: 100;
@@ -50,6 +52,10 @@
     color: #C57ED3;
     border: 1px solid #C57ED3;
 }
+
+/* .nav > li{
+    text-decoration: none;
+} */
 
 .navbar-default .navbar-nav > li > a {
     color: white;
@@ -67,11 +73,13 @@
     text-decoration: none;
 }
 
+
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
     background-color: transparent;
     color: #C57ED3;
+    /* text-decoration: none; */
 }
 .navbar-default .navbar-toggle {
     border-color: #C57ED3;
