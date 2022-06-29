@@ -1,113 +1,150 @@
-.image {
-    background-color: #490D40;
-    background: url(https://sonorangirl.github.io/Earth-Quotes/img/google-earth-view-South-Iceland3.jpg) no-repeat center center;
-    background-size: cover;
-    height: 570px;
-    margin-top: -20px;
-}
-.heading {
-    color: white;
-    text-align: center;
-    padding-top: 200px;
-}
-/* image .heading {
-    color: white;
-    text-align: center;
-    padding-top: 200px;
-} */
-
-p {
-    text-align: center;
-    padding: 20px 60px;
+:root {
+    --primary: #8c38ff;
+    --light: #EEEEEE;
+    --dark: #212121;
   }
-p .btn {
-    background-color: transparent;
-    color: white;
-    border: 1px solid white;
-    padding: 10px;
-    font-size: 1.2em;
-}
-
-.image p .btn:hover {
-    color: #C57ED3;
-    border-color: #C57ED3;
-}
-
-/* NAVBAR */
-.navbar {
-    height: 80px;
-    background-color: transparent;
-    /* text-decoration: none; */
+  
+  * {
+    font-family: 'Fira Sans', sans-serif;
+    box-sizing: border-box;
+    padding: o;
+    margin: o;
+  }
+  
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: var(--dark);
+    padding: 16px 32px;
+    border-bottom: 3px solid var(--primary);
+  }
+  
+  h1  {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .hamburger {
+    display: block;
+    position: relative;
+    z-index: 1;
+  
+    user-select: none;
+  
+    appearance: none;
     border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .hamburger span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+  
+    background-color: var(--light);
+    border-radius: 6px;
+    z-index: 1;
+  
+    transform-origin: 0 0;
+  
+    transition: 0.4s;
+  }
+  
+  .hamburger:hover span:nth-child(2) {
+    transform: translateX(10px);
+    background-color: var(--primary);
+  }
+  
+  .hamburger.is-active span:nth-child(1) {
+    transform: translate(0px, -2px) rotate(45deg);
+  }
+  
+  .hamburger.is-active span:nth-child(2) {
+    opacity: 0;
+    transform: translateX(15px);
+  }
+  
+  .hamburger.is-active span:nth-child(3) {
+    transform: translate(-3px, 3px) rotate(-45deg);
+  }
+  
+  .hamburger.is-active:hover span {
+    background-color: var(--primary);
+  }
+  
+  .menu {
+    display: none;
+    flex: 1 1 0%;
+    justify-content: flex-end;
+    margin: 0 -16px;
+  }
+  
+  .menu a {
+    color: #FFF;
+    margin: 0 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 8px 16px;
+    border-radius: 99px;
+  }
+  
+  .menu a.is-active, .menu a:hover{
+    background-color: var(--primary);
+  }
+  
+  @media (min-width: 768px) {
+    .hamburger {
+      display: none;
+    }
+    .menu{
+      display: flex;
+    }
+  }
+  .header {
+    margin-top: 113px;
+    margin-left:-10px;
+    margin-right:-10px;
+    padding: 140px;
+    text-align: center;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("code2.jpg"); */
     color: white;
-    z-index: 100;
-    transition: background-color 1s ease 0s;
+    font-size: 30px;
   }
 
-.navbar-default .navbar-brand {
-    margin-top: 10px;
-    color: white;
-}
-.navbar-default .navbar-brand:hover {
-    color: #C57ED3;
-    border: 1px solid #C57ED3;
-}
-
-/* .nav > li{
-    text-decoration: none;
-} */
-
-.navbar-default .navbar-nav > li > a {
-    color: white;
-    margin: 10px 5px 5px 5px;
-}
-.navbar-default .navbar-nav > li > a:hover, 
-.navbar-default .navbar-nav > li > a:active, 
-.navbar-default .navbar-nav > li > a:focus {
-    color: #C57ED3;
-    border: 1px solid #C57ED3;
-}
-
-.navbar-default .navbar-nav > li > a:visited {
-    color: #C57ED3;
-    text-decoration: none;
-}
-
-
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
-.navbar-default .navbar-nav > .active > a:focus {
-    background-color: transparent;
-    color: #C57ED3;
-    /* text-decoration: none; */
-}
-.navbar-default .navbar-toggle {
-    border-color: #C57ED3;
-}
-.navbar-default .navbar-toggle:hover, 
-.navbar-default .navbar-toggle:focus {
-    background-color: #490D40;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    color: #C57ED3;
-    background-color: #C57ED3;
-}
-.navbar-default .navbar-collapse.collapse.in ul {
-    background-color: #490D40;
-}
-
-/* Solid class attached on scroll past first section */
-.navbar.solid {
-    background-color: #490D40;
-    transition: background-color 1s ease 0s;
-    box-shadow: 0 0 4px grey;
-}
-.navbar.solid .navbar-brand {
-    color: #C57ED3;
-    transition: color 1s ease 0s;
-}
-.navbar.solid .navbar-nav > li > a {
-    color: #C57ED3;
-    transition: color 1s ease 0s;
-}
+  /* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/resources/img/1.jpg");
+  
+    /* Set a specific height */
+    height: 50%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .btn{
+    
+  }
