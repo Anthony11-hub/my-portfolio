@@ -145,6 +145,16 @@
     background-size: cover;
     position: relative;
   }
-  .btn{
-    
-  }
+.btn{
+  text-decoration: none;
+  border-radius: 200px;
+  padding: 20px 30px;
+  display: inline-block;
+}
+.btn-full:hover,
+.btn-full:active{
+  background-color: #8c38ff;
+	color: #fff;
+	-webkit-transition: border-bottom 0.2s;
+	transition: border-bottom 0.2s;
+}
