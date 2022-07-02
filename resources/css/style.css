@@ -161,7 +161,7 @@
 .about{
   background-color: #8c38ff;
   color: #1e1131;
-  height: 600px;
+  height: 400px;
   text-align: center;
   margin-top: -20px;
 }
@@ -172,6 +172,32 @@
   padding: 20px 80px;
 }
 
-.skills{
-  
+.skills-heading {
+  margin-top: 30px;
+  padding-top: 10px;
+  color: black;
+  text-align: center;
 }
+
+* {box-sizing: border-box}
+
+.container-2 {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  /* text-align: right; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+}
+/* .skills{
+  margin-top: 30px;
+  padding-top: 10px;
+  color: black;
+} */
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}
