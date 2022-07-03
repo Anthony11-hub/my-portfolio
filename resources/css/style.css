@@ -204,3 +204,38 @@
 .css {width: 80%; background-color: #2196F3;}
 .js {width: 65%; background-color: #f44336;}
 .php {width: 60%; background-color: #808080;}
+/*----------------CONTACT FORM SECTION------------------*/
+.contact-section{
+	text-align: center;
+}
+.contact-heading{
+	margin-bottom: 50px;
+}
+.contact-form{
+	text-align: left;
+	width: 60%;
+	margin: 0 auto;
+	color: #555;
+}
+input[type=text],
+input[type=email],
+textarea{
+	width: 100%;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #555;
+	background-color: #fff;
+}
+input[type=checkbox]{
+	margin: 10 5px 10px 0;
+}
+input[type=submit]{
+	border:0;
+}
+textarea {
+	height: 100px;
+}
+
+*:focus{
+	outline: none;
+}
