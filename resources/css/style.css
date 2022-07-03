@@ -179,6 +179,8 @@
   text-align: center;
 }
 
+/* Skillbar */
+
 * {box-sizing: border-box}
 
 .container-2 {
@@ -191,6 +193,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   color: black;
+  cursor: pointer;
 }
 /* .skills{
   margin-top: 30px;
