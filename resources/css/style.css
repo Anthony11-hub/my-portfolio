@@ -239,3 +239,71 @@ textarea {
 *:focus{
 	outline: none;
 }
+/*---------------FOOTER----------------*/
+footer{
+	background-color: #333;
+	padding: 50px;
+	font-size: 80%;
+	color: #888;
+}
+.footer-nav{
+	float: left;
+}
+.social-links{
+	float: right;
+}
+.footer-nav li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+	text-decoration: none;
+	color: #888;
+}
+.footer-nav li a:hover,
+.footer-nav li a:active{
+	color: #fff;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+}
+.social-links li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+}
+.social-links li a:link,
+.social-links li a:visited{
+	font-size: 160%;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-google-plus-g,
+.fa-instagram{
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+
+.fa-facebook:hover{
+	color: #3b5998;
+}
+.fa-twitter:hover{
+	color: #00aced;
+}
+.fa-google-plus-g:hover{
+	color:#dd4b39;
+}
+.fa-instagram:hover{
+	color:#517fa4;
+}
+
+footer p{
+	text-align: center;
+	margin-top: 50px;
+	line-height: 1.5;
+}
