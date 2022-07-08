@@ -158,6 +158,8 @@
 	-webkit-transition: border-bottom 0.2s;
 	transition: border-bottom 0.2s;
 }
+
+/* -----------------About----------------- */
 .about{
   background-color: #8c38ff;
   color: #1e1131;
@@ -171,6 +173,9 @@
 .about-para {
   padding: 20px 80px;
 }
+
+
+/* ---------------------------------------- */
 
 .skills-heading {
   margin-top: 30px;
@@ -241,7 +246,7 @@ textarea {
 }
 /*---------------FOOTER----------------*/
 .container1{
-  background: #18191f;
+  background: #212121;
   display: flex;
   justify-content: center;
   height: 10;
