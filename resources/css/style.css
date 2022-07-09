@@ -167,13 +167,40 @@
   text-align: center;
   margin-top: -20px;
 }
+.about-box:first-child{
+	text-align: left;
+	padding: 0 5%;
+}
+.about-box:last-child{
+	text-align: right;
+}
 .about-heading {
   padding-top: 70px;
 }
 .about-para {
   padding: 20px 80px;
 }
-
+.code-img{
+	width: 50%;
+	border-radius: 30px;
+}
+.about-para{
+	color: #1e1131;
+	margin-bottom: 50px;
+}
+.about-box{
+	margin-top: 10px;
+}
+.about-section{
+	padding-bottom: 20px;
+	/*padding-top: -60px;*/
+}
+.about-heading{
+	color: black;
+	font-size: 250%;
+	font-weight: 500;
+	margin-bottom: 50px;
+}
 
 /* ---------------------------------------- */
 
