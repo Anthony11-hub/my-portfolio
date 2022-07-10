@@ -167,7 +167,7 @@
   text-align: center;
   margin-top: -20px;
 }
-.about-box:first-child{
+/* .about-box:first-child{
 	text-align: left;
 	padding: 0 5%;
 }
@@ -194,13 +194,13 @@
 .about-section{
 	padding-bottom: 20px;
 	/*padding-top: -60px;*/
-}
+/* }
 .about-heading{
 	color: black;
 	font-size: 250%;
 	font-weight: 500;
 	margin-bottom: 50px;
-}
+} */ */
 
 /* ---------------------------------------- */
 
