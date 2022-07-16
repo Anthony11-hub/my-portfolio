@@ -11,7 +11,7 @@
     margin: o;
   }
   
-  .container {
+  .container-1 {
     max-width: 1280px;
     margin: 0 auto;
   
@@ -145,7 +145,7 @@
     background-size: cover;
     position: relative;
   }
-.btn{
+.btn-m{
   text-decoration: none;
   border-radius: 200px;
   padding: 20px 30px;
@@ -160,50 +160,60 @@
 }
 
 /* -----------------About----------------- */
-.about{
+/* .about{
   background-color: #8c38ff;
   color: #1e1131;
   height: 400px;
   text-align: center;
   margin-top: -20px;
-}
-/* .about-box:first-child{
-	text-align: left;
-	padding: 0 5%;
-}
-.about-box:last-child{
-	text-align: right;
-}
-.about-heading {
-  padding-top: 70px;
-}
-.about-para {
-  padding: 20px 80px;
-}
-.code-img{
-	width: 50%;
-	border-radius: 30px;
-}
-.about-para{
-	color: #1e1131;
-	margin-bottom: 50px;
-}
-.about-box{
-	margin-top: 10px;
-}
-.about-section{
-	padding-bottom: 20px;
-	/*padding-top: -60px;*/
-/* }
-.about-heading{
-	color: black;
-	font-size: 250%;
-	font-weight: 500;
-	margin-bottom: 50px;
-} */ */
+} */
+.about-img{
+  margin-left: -100px;
+  right: -60px;
+ }
+ 
+ .display-1{
+   font-size: 160px;
+   font-weight: 1000;
+ 
+ }
+ 
+ .position-absolute{
+   font-weight: 700;
+ 
+ }
+ 
+ .typed-cursor {
+   font-size: 45px;
+   color: #ffffff;
+ }
+ 
+ .blue{
+   background-color: #1c5ce6;
+   color: #ffffff;
+ }
+ .btn{
+   border: 2px solid rgb(29, 105, 247);
+ } 
+ .btn-white{
+   background-color: #ffffff;
+   border:2px solid #ffffff;
+ }
+ .btn-blue{
+   border: 2.4px solid #ffffff;
+   color: #ffffff;
+ }
+ @media (max-width: 700px) {
+   .about-img{
+     margin-left: 20px;
+     right: 0px;
+     top: 30px;
+    }
+ }
 
-/* ---------------------------------------- */
 
+
+/* -----------------Skills----------------------- */
 .skills-heading {
   margin-top: 30px;
   padding-top: 10px;
@@ -233,8 +243,8 @@
   color: black;
 } */
 .html {width: 90%; background-color: #04AA6D;}
-.css {width: 80%; background-color: #2196F3;}
-.js {width: 65%; background-color: #f44336;}
+.css {width: 50%; background-color: #2196F3;}
+.js {width: 55%; background-color: #f44336;}
 .php {width: 60%; background-color: #808080;}
 /*----------------CONTACT FORM SECTION------------------*/
 .contact-section{
