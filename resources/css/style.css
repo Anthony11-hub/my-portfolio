@@ -27,7 +27,7 @@
     z-index: 99;
     background-color: var(--dark);
     padding: 16px 32px;
-    border-bottom: 3px solid var(--primary);
+    border-bottom: 3px solid #1c5ce6;
   }
   
   h1  {
@@ -70,7 +70,7 @@
   
   .hamburger:hover span:nth-child(2) {
     transform: translateX(10px);
-    background-color: var(--primary);
+    background-color: #1c5ce6;
   }
   
   .hamburger.is-active span:nth-child(1) {
@@ -87,7 +87,7 @@
   }
   
   .hamburger.is-active:hover span {
-    background-color: var(--primary);
+    background-color: #1c5ce6;
   }
   
   .menu {
@@ -108,7 +108,7 @@
   }
   
   .menu a.is-active, .menu a:hover{
-    background-color: var(--primary);
+    background-color: #1c5ce6;
   }
   
   @media (min-width: 768px) {
@@ -152,7 +152,7 @@
 }
 .btn-full:hover,
 .btn-full:active{
-  background-color: #8c38ff;
+  background-color: #1c5ce6;
 	color: #fff;
 	-webkit-transition: border-bottom 0.2s;
 	transition: border-bottom 0.2s;
@@ -209,11 +209,10 @@
      top: 30px;
     }
  }
-/* .about-heading{
-  font-size:x-large;
-  font-weight: 900;
-}
-.about-head{
+/* .text-primary{
+  color: #18191f;
+} */
+/*.about-head{
 } */
 
 /* -----------------Skills----------------------- */
